@@ -1,0 +1,12 @@
+{
+  "TestDS": {
+    "host": "192.168.1.10",
+    "port": 3306,
+    "url": "",
+    "database": "humans",
+    "password": "VerySecret",
+    "name": "TestDS",
+    "username": "Familiez_Func",
+    "connector": "loopback-connector-mysql"
+  }
+}
