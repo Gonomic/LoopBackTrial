@@ -5,12 +5,14 @@ var outputPath = path.resolve(__dirname, '../../common/models');
 
 var dataSource = app.dataSources.TestDS;
 
-function schemaCB(err, schema) {
-    if (schema) {
-        console.log("Auto discovery success: " + schema.name);
-        var outputName = outputPath + '/' + schema.name + '.json';
-        console.log("Sproc= ", schema.properties.apitodbId.mysql);
-        fs.writeFile(outputName, JSON.stringify(schema, null, 2), function(err) {
+function schemaCB(err, schemas) {
+    if (schemas) {
+        //console.log("Auto discovery success: " + schema.name);
+        console.log("Auto discovery success: ");
+        //var outputName = outputPath + '/' + schema.name + '.json';
+        var outputName = outputPath + '/modellen.json';
+        //console.log("Sproc= ", schema.properties.apitodbId.mysql);
+        fs.writeFile(outputName, JSON.stringify(schemas, null, 2), function(err) {
             if (err) {
                 console.log(err);
             } else {
@@ -25,4 +27,4 @@ function schemaCB(err, schema) {
     return;
 };
 
-dataSource.discoverSchema('APItoDB', { schema: 'humans' }, schemaCB);
+dataSource.discoverAndBuildModels('APItoDB', { schema: 'humans' }, schemaCB);

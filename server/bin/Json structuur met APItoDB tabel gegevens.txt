@@ -1,0 +1,103 @@
+Record= [
+            {"CompletedOk":0,"APItoDBRoute":"AbstractDBtoAPInfo","SpoFieldNamesAndTypes":"
+                {'parms'}"},
+            {"CompletedOk":0,"APItoDBRoute":"API_GetAPItoDBDetails","SpoFieldNamesAndTypes":"
+                {'parms'}"},
+            {"CompletedOk":0,"APItoDBRoute":"deletePerson","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"PersonIdIn\" , \"type\":\"int\"},
+                    {\"Name\":\"TimestampIn\" , \"type\":\"datetime\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"GetAllChildrenFromFatherAndOrMotherWithoutPartners","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"Father\" , \"type\":\"int\"},
+                    {\"Name\":\"Mother\" , \"type\":\"int\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"GetAllChildrenFromFatherAndOrMotherWithPartners","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"Father\" , \"type\":\"int\"},
+                    {\"Name\":\"Mother\" , \"type\":\"int\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"GetAllChildrenWithoutPartnerFromBothParents","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"Father\" , \"type\":\"int\"},
+                    {\"Name\":\"Mother\" , \"type\":\"int\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"GetAllChildrenWithoutPartnerFromBothPartners","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"Father\" , \"type\":\"int\"},
+                    {\"Name\":\"Mother\" , \"type\":\"int\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"GetAllChildrenWithoutPartnerFromOneParent","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"Parent\" , \"type\":\"int\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"GetAllChildrenWithPartnerFromBothPartners","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"Father\" , \"type\":\"int\"},
+                    {\"Name\":\"Mother\" , \"type\":\"int\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"GetAllChildrenWithPartnerFromOneParent","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"TheParent\" , \"type\":\"int\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"GetAllFamilyCouples","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"YearFrom\" , \"type\":\"int\"},
+                    {\"Name\":\"FamilyName\" , \"type\":\"varchar\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"GetAllParentCouples","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"FamilyName\" , \"type\":\"varchar\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"GetAllPersonsWithPartner","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"YearFrom\" , \"type\":\"int\"},
+                    {\"Name\":\"FamilyName\" , \"type\":\"varchar\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"GetFamilieDetails","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"PersonIdIn\" , \"type\":\"int\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"GetFather","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"PersonIdIn\" , \"type\":\"int\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"GetMother","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"PersonIdIn\" , \"type\":\"int\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"GetPartner","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"PersonIdIn\" , \"type\":\"int\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"GetPersonDetails","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"PersonIDin\" , \"type\":\"int\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"getPossibleFathers","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"PersonIDin\" , \"type\":\"int\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"getPossibleFathersBasedOnAge","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"PersonAgeIn\" , \"type\":\"date\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"getPossibleMothers","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"PersonIDin\" , \"type\":\"int\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"getPossibleMothersBasedOnAge","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"PersonAgeIn\" , \"type\":\"date\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"getPossiblePartners","SpoFieldNamesAndTypes":"
+                {'parms':   
+                    {\"Name\":\"PersonIDin\" , \"type\":\"int\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"getPossiblePartners-OLD","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"PersonIDin\" , \"type\":\"int\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"getPossiblePartnersBasedOnAge","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"PersonAgeIn\" , \"type\":\"date\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"InsertPersonDetails","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"PersonGivvenNameIn\" , \"type\":\"varchar\"},{\"Name\":\"PersonFamilyNameIn\" , \"type\":\"varchar\"},{\"Name\":\"PersonDateOfBirthIn\" , \"type\":\"datetime\"},{\"Name\":\"PersonPlaceOfBirthIn\" , \"type\":\"varchar\"},{\"Name\":\"PersonDateOfDeathIn\" , \"type\":\"datetime\"},{\"Name\":\"PersonPlaceOfDeathIn\" , \"type\":\"varchar\"},{\"Name\":\"PersonIsMaleIn\" , \"type\":\"tinyint\"},{\"Name\":\"PersonPhotoIn\" , \"type\":\"longblob\"},{\"Name\":\"PersonPartnerIdIn\" , \"type\":\"int\"},{\"Name\":\"PersonPartnerIn\" , \"type\":\"varchar\"},{\"Name\":\"PersonFatherIdIn\" , \"type\":\"int\"},{\"Name\":\"PersonFatherIn\" , \"type\":\"varchar\"},{\"Name\":\"PersonMotherIdIn\" , \"type\":\"int\"},{\"Name\":\"PersonMotherIn\" , \"type\":\"varchar\"}}"},
+            {"CompletedOk":0,"APItoDBRoute":"UpdatePersonDetails","SpoFieldNamesAndTypes":"
+                {'parms':
+                    {\"Name\":\"PersonIdIn\" , \"type\":\"int\"},
+                    {\"Name\":\"PersonGivvenNameIn\" , \"type\":\"varchar\"},
+                    {\"Name\":\"PersonFamilyNameIn\" , \"type\":\"varchar\"},
+                    {\"Name\":\"PersonDateOfBirthIn\" , \"type\":\"datetime\"},
+                    {\"Name\":\"PersonPlaceOfBirthIn\" , \"type\":\"varchar\"},
+                    {\"Name\":\"PersonDateOfDeathIn\" , \"type\":\"datetime\"},
+                    {\"Name\":\"PersonPlaceOfDeathIn\" , \"type\":\"varchar\"},
+                    {\"Name\":\"PersonIsMaleIn\" , \"type\":\"tinyint\"},
+                    {\"Name\":\"PersonPhotoIn\" , \"type\":\"longblob\"},
+                    {\"Name\":\"TimestampIn\" , \"type\":\"timestamp\"},
+                    {\"Name\":\"PersonPartnerIdIn\" , \"type\":\"int\"},
+                    {\"Name\":\"PersonPartnerIn\" , \"type\":\"varchar\"},
+                    {\"Name\":\"PersonFatherIdIn\" , \"type\":\"int\"},
+                    {\"Name\":\"PersonFatherIn\" , \"type\":\"varchar\"},
+                    {\"Name\":\"PersonMotherIdIn\" , \"type\":\"int\"},
+                    {\"Name\":\"PersonMotherIn\" , \"type\":\"varchar\"}}"}]

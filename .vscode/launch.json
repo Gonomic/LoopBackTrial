@@ -4,12 +4,17 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
             "type": "node",
             "request": "launch",
-            "name": "Autodisk",
-            "program": "${workspaceFolder}\\server\\Bin\\autodisc.js"
+            "name": "Autodisc2",
+            "program": "${workspaceFolder}\\server\\Bin\\autodisc2.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Autodisc1",
+            "program": "${workspaceFolder}\\server\\Bin\\autodisc1.js"
         },
         {
             "type": "node",
